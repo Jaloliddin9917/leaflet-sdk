@@ -1,5 +1,5 @@
 {
-  "name": "leaflet-sdk",
+  "name": "@jalol/leaflet-sdk",
   "version": "0.0.1",
   "description": "react leaflet sdk",
   "scripts": {
@@ -47,5 +47,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Jaloliddin9917"
+  }
 }
