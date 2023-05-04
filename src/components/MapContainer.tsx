@@ -2,7 +2,7 @@ import {
   LeafletProvider,
   type LeafletContextInterface,
   createLeafletContext,
-} from './core';
+} from '../core';
 import {
   type FitBoundsOptions,
   type LatLngBoundsExpression,

@@ -4,10 +4,10 @@ import {
   createPathComponent,
   extendContext,
   updateCircle,
-} from './core'
+} from '../core'
 import { CircleMarker as LeafletCircleMarker } from 'leaflet'
 
-export type { CircleMarkerProps } from './core'
+export type { CircleMarkerProps } from '../core'
 
 export const CircleMarker = createPathComponent<
   LeafletCircleMarker,

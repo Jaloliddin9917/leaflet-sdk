@@ -1,4 +1,4 @@
-import { useLeafletContext } from './core'
+import { useLeafletContext } from '../core'
 import type { LeafletEventHandlerFnMap, Map } from 'leaflet'
 import { useEffect } from 'react'
 

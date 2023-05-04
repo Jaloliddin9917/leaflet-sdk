@@ -4,7 +4,7 @@ import {
   createLayerComponent,
   extendContext,
   updateMediaOverlay,
-} from './core'
+} from '../core'
 import {
   VideoOverlay as LeafletVideoOverlay,
   type VideoOverlayOptions,

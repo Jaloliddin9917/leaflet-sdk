@@ -1,4 +1,4 @@
-import { createControlComponent } from './core';
+import { createControlComponent } from '../core';
 import { Control } from 'leaflet'
 
 export type AttributionControlProps = Control.AttributionOptions

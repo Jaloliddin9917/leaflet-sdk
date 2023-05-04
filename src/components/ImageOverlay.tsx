@@ -4,7 +4,7 @@ import {
   createLayerComponent,
   extendContext,
   updateMediaOverlay,
-} from './core'
+} from '../core'
 import { LatLngBounds, ImageOverlay as LeafletImageOverlay } from 'leaflet'
 import type { ReactNode } from 'react'
 

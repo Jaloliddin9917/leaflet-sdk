@@ -4,7 +4,7 @@ import {
   createTileLayerComponent,
   updateGridLayer,
   withPane,
-} from './core'
+} from '../core'
 import { TileLayer, type WMSOptions, type WMSParams } from 'leaflet'
 
 export interface WMSTileLayerProps extends WMSOptions, LayerProps {

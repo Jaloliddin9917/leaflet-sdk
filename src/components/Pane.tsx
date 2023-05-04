@@ -3,7 +3,7 @@ import {
   LeafletProvider,
   addClassName,
   useLeafletContext,
-} from './core'
+} from '../core'
 import React, {
   type CSSProperties,
   type ReactNode,

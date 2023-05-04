@@ -3,7 +3,7 @@ import {
   createElementObject,
   createLayerComponent,
   extendContext,
-} from './core'
+} from '../core'
 import {
   type LatLngExpression,
   Marker as LeafletMarker,

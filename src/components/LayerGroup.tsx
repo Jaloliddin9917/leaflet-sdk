@@ -3,7 +3,7 @@ import {
   createElementObject,
   createLayerComponent,
   extendContext,
-} from './core'
+} from '../core'
 import { LayerGroup as LeafletLayerGroup, type LayerOptions } from 'leaflet'
 import type { ReactNode } from 'react'
 

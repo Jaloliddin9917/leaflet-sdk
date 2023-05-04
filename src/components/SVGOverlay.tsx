@@ -4,7 +4,7 @@ import {
   createElementObject,
   createLayerHook,
   updateMediaOverlay,
-} from './core'
+} from '../core'
 import { SVGOverlay as LeafletSVGOverlay } from 'leaflet'
 import {
   type ReactNode,

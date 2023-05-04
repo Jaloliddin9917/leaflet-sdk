@@ -3,7 +3,7 @@ import {
   createElementObject,
   createPathComponent,
   extendContext,
-} from './core'
+} from '../core'
 import {
   type LatLngBoundsExpression,
   Rectangle as LeafletRectangle,

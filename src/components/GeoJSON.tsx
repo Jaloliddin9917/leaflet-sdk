@@ -3,7 +3,7 @@ import {
   createElementObject,
   createPathComponent,
   extendContext,
-} from './core'
+} from '../core'
 import type { GeoJsonObject } from 'geojson'
 import { GeoJSON as LeafletGeoJSON, type GeoJSONOptions } from 'leaflet'
 

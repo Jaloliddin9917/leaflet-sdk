@@ -5,7 +5,7 @@ import {
   type SetOpenFunc,
   createElementObject,
   createOverlayComponent,
-} from './core'
+} from '../core'
 import {
   type LatLngExpression,
   Popup as LeafletPopup,

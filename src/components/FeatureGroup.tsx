@@ -3,7 +3,7 @@ import {
   createElementObject,
   createPathComponent,
   extendContext,
-} from './core'
+} from '../core'
 import { FeatureGroup as LeafletFeatureGroup } from 'leaflet'
 
 import type { LayerGroupProps } from './LayerGroup.js'

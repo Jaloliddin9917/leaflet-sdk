@@ -6,7 +6,7 @@ import {
   createElementObject,
   extendContext,
   useLeafletContext,
-} from './core'
+} from '../core'
 import { Control, type Layer } from 'leaflet'
 import React, {
   type ForwardRefExoticComponent,
