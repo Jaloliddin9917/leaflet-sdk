@@ -1,5 +1,5 @@
 {
-  "name": "leaflet-sdk",
+  "name": "jalol-leaflet-sdk",
   "version": "0.0.1",
   "description": "React components for Leaflet maps",
   "repository": {
@@ -14,11 +14,11 @@
   ],
   "author": "Powered by Jaloliidin",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-lib": "rollup -c"
   },
   "peerDependencies": {
     "leaflet": "^1.9.0",
@@ -26,27 +26,32 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.21.5",
-    "@storybook/addon-essentials": "7.0.9",
-    "@storybook/addon-interactions": "7.0.9",
-    "@storybook/addon-links": "7.0.9",
-    "@storybook/blocks": "7.0.9",
-    "@storybook/react": "7.0.9",
-    "@storybook/react-webpack5": "7.0.9",
-    "@storybook/testing-library": "0.0.14-next.2",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@rollup/plugin-typescript": "^11.1.0",
     "@types/geojson": "^7946.0.10",
     "@types/leaflet": "^1.9.1",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "babel-loader": "^8.2.2",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "storybook": "7.0.9"
+    "rollup": "^2.38.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "bugs": {
     "url": "https://github.com/Jaloliddin9917/leaflet-sdk/issues"
   },
-  "homepage": "https://github.com/Jaloliddin9917/leaflet-sdk#readme"
+  "homepage": "https://github.com/Jaloliddin9917/leaflet-sdk#readme",
+  "dependencies": {
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
 }
